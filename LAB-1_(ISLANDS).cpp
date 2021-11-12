@@ -128,10 +128,10 @@ int countIslands(vector<vector<int>>a)
 int main(void)
 {
 	vector<vector<int>>a = {{1, 1, 0, 0, 0},
-							{0, 1, 0, 0, 1},
-							{1, 0, 0, 1, 1},
-							{0, 0, 0, 0, 0},
-							{1, 0, 1, 0, 1}};
+				{0, 1, 0, 0, 1},
+				{1, 0, 0, 1, 1},
+				{0, 0, 0, 0, 0},
+				{1, 0, 1, 0, 1}};
 	cout << "Number of Islands is: "
 		<< countIslands(a) << endl;
 }
