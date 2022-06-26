@@ -12,6 +12,7 @@ Node* newNode(int key) {
     temp->child = temp->parent = temp->sibling = NULL; 
     return temp; 
 } 
+//namaskara
 Node* mergeBinomialTrees(Node* b1,Node* b2){
     if(b1->data > b2->data){
         swap(b1,b2);
